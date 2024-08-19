@@ -17,7 +17,7 @@ To run ChronoNote locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/ChronoNote.git
+   https://github.com/djeghlaflydia/ChronoNote.git
 2. **Navigate to the project directory**:
     ```bash
     cd creat_app

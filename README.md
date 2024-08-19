@@ -2,10 +2,14 @@
 
 **ChronoNote** is a simple and elegant tool designed to help you stay organized and manage your tasks effectively. The application features two primary sections: a TODO list and an Agenda, allowing you to track your daily tasks and events seamlessly.
 
+![ChonoNote1](https://github.com/user-attachments/assets/ff754b10-3ada-4ada-9469-b31ad2d3e03e)
+
 ## Features
 
 - **TODO List**: Create, edit, and manage your tasks efficiently.
+![ChonoNote2](https://github.com/user-attachments/assets/7eac3371-67b8-4293-aca7-79ead15d417d)
 - **Agenda**: Schedule and view your events on an interactive calendar.
+![ChonoNote3](https://github.com/user-attachments/assets/4ed3bb80-2492-4788-ab35-eea781d9592e)
 
 ## Installation
 
@@ -42,5 +46,5 @@ Happy organizing!
 ---
 
 **Contact Information**
-- GitHub: https://github.com/djeghlaflydia"
+- GitHub: https://github.com/djeghlaflydia
 

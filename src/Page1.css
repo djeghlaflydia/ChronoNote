@@ -1,0 +1,114 @@
+/* To-Do List Specific Styles */
+.to-do-list {
+    background: linear-gradient(135deg, hsl(240, 50%, 25%), hsl(260, 50%, 35%));
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    width: 600px;
+    max-height: 600px;
+    margin: calc(2rem - 100px) auto; /* Ajuste de 20px vers le haut */
+    position: relative; /* Ajouté pour le positionnement des boutons */
+    overflow-y: auto; /* Active le défilement vertical */
+    overflow-x: hidden; /* Désactive le défilement horizontal si ce n'est pas nécessaire */
+}
+
+.to-do-list h1 {
+    font-size: 4rem;
+    color: hsl(340, 100%, 65%);
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+}
+
+.to-do-list input[type="text"] {
+    font-size: 1.5rem;
+    padding: 12px;
+    border: 2px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    width: 90%;
+    color: hsl(0, 0%, 20%);
+    background: hsl(0, 0%, 95%);
+}
+
+.to-do-list button {
+    font-weight: bold;
+    padding: 12px 20px;
+    color: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.4s, transform 0.2s;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.4);
+}
+
+.add-button {
+    background: linear-gradient(135deg, hsl(120, 100%, 30%), hsl(120, 100%, 25%));
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.add-button:hover {
+    background: linear-gradient(135deg, hsl(120, 100%, 25%), hsl(120, 100%, 20%));
+    transform: translateY(-3px) scale(1.05);
+}
+
+.delete-button, .move-button {
+    padding: 10px 14px;
+    margin-left: 5px;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.4);
+    position: absolute; /* Positionnement absolu pour aligner à droite */
+    right: 10px; /* Positionne les boutons à droite du conteneur de la liste */
+}
+
+.delete-button {
+    background: linear-gradient(135deg, hsl(0, 100%, 45%), hsl(0, 100%, 35%));
+}
+
+.delete-button:hover {
+    background: linear-gradient(135deg, hsl(0, 100%, 40%), hsl(0, 100%, 30%));
+    transform: translateY(-2px) scale(1.05);
+}
+
+.move-button {
+    background: linear-gradient(135deg, hsl(271, 100%, 45%), hsl(271, 100%, 35%));
+}
+
+.move-button:hover {
+    background: linear-gradient(135deg, hsl(271, 100%, 40%), hsl(271, 100%, 30%));
+    transform: translateY(-2px) scale(1.05);
+}
+
+.to-do-list ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.to-do-list li {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 15px;
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, hsl(240, 50%, 25%), hsl(260, 50%, 35%));
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+}
+
+.delete-button {
+    right: 177px; /* Positionne le bouton delete à gauche du bouton move */
+}
+
+#up {
+    right: 107px;
+}
+
+#down {
+    right: 37px;
+}

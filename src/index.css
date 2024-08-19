@@ -1,0 +1,85 @@
+body {
+    background: linear-gradient(135deg, hsl(230, 100%, 20%), hsl(260, 100%, 30%), hsl(290, 100%, 40%));
+    color: hsl(0, 0%, 95%);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 15px;
+    background: hsla(0, 0%, 0%, 0.4);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.container h3 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: hsl(0, 0%, 85%);
+}
+
+.container button {
+    width: 250px;
+    height: 60px;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0.5rem;
+    background: linear-gradient(135deg, hsl(340, 100%, 50%), hsl(300, 100%, 40%));
+    color: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.4);
+    transition: background-color 0.4s, box-shadow 0.4s, transform 0.2s ease-in-out;
+}
+
+.container button:hover {
+    background: linear-gradient(135deg, hsl(340, 100%, 45%), hsl(300, 100%, 35%));
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+    transform: translateY(-3px) scale(1.05);
+}
+
+.Back {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 80px;
+    height: 40px;
+    font-size: 1.2em;
+    font-weight: bold;
+    background: linear-gradient(135deg, hsl(220, 100%, 50%), hsl(240, 100%, 40%));
+    color: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.4);
+    transition: background-color 0.4s, box-shadow 0.4s, transform 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.Back:hover {
+    background: linear-gradient(135deg, hsl(220, 100%, 45%), hsl(240, 100%, 35%));
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+    transform: translateY(-3px) scale(1.05);
+}

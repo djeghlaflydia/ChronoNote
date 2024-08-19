@@ -1,6 +1,6 @@
 # ChronoNote
 
-**ChronoNote** is a simple and elegant tool designed to help you stay organized and manage your tasks effectively. The application features two primary sections: a TODO list and an Agenda, allowing you to track your daily tasks and events seamlessly.
+**ChronoNote** is a simple and elegant tool designed to help you stay organized and manage your tasks effectively. Built with React, the application features two primary sections: a TODO list and an Agenda, allowing you to track your daily tasks and events seamlessly.
 
 ![ChonoNote1](https://github.com/user-attachments/assets/ff754b10-3ada-4ada-9469-b31ad2d3e03e)
 
